@@ -93,13 +93,6 @@ export function svgX(options: SvgXOptions): Plugin {
                   };
                 },
               },
-              // {
-              //   name: "removeAttrs",
-              //   params: {
-              //     attrs: "(fill|stroke)",
-              //     preserveCurrentColor: true,
-              //   },
-              // },
             ],
           };
           if (options.svgoConfig) {
